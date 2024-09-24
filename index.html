@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de Mariage - Accueil</title>
+    <link rel="icon" type="image/png" href="images/salles/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue chez l'Agence d'Organisation de Mariage</h1>
+        <img style="width: 80px; float: left; margin-right: 10px; border-radius: 50%;" src="images/Capture d'écran 2024-09-24 015450.png" alt="Logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="personalisation.html">Personnalisation</a></li>
+                <li><a href="#testimonials" onclick="showTestimonials()">Témoignages</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Organisez le mariage de vos rêves avec nous</h2>
+            <button class="btn" onclick="window.location.href='services.html'">Voir nos services</button>
+        </section>
+        
+        <!-- Section About Us -->
+        <section id="about" style="padding: 40px 20px; background-color: #f9f9f9;">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes une agence d'organisation de mariage dédiée à faire de vos rêves une réalité. Avec des années d'expérience dans l'industrie, nous offrons des services sur mesure pour chaque couple, allant de la location de salle, la décoration, au service traiteur et bien plus encore.</p>
+            <p>Notre équipe est composée de professionnels passionnés qui travaillent avec vous pour créer une expérience mémorable, unique et magique.</p>
+        </section>
+
+        <!-- Section Testimonials -->
+        <section id="testimonials" style="display: none;">
+            <h2>Témoignages</h2>
+            <p>Ce que nos clients disent de nous :</p>
+            <div class="testimonial">
+                <blockquote>
+                    <p>"Un mariage parfait, organisé à la perfection!"</p>
+                    <cite>- Client Satisfait</cite>
+                </blockquote>
+            </div>
+            <div class="testimonial">
+                <blockquote>
+                    <p>"Un service exceptionnel et une équipe très professionnelle."</p>
+                    <cite>- Client Heureux</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Nous sommes à votre écoute.</p>
+        <p>&copy; 2024 Agence de Mariage. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        function showTestimonials() {
+            const testimonialsSection = document.getElementById('testimonials');
+            testimonialsSection.style.display = 'block'; // Affiche la section des témoignages
+            window.scrollTo({
+                top: testimonialsSection.offsetTop,
+                behavior: 'smooth' // Défilement en douceur vers la section
+            });
+        }
+    </script>
+</body>
+</html>

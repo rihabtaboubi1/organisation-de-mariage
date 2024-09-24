@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #f1779a;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1779a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Augmenter l'espace entre les liens */
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; /* Ajout d'une transition pour un effet au survol */
+}
+
+footer p {
+    margin: 0;
+}

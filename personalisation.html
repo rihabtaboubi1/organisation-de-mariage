@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnalisation - Agence de Mariage</title>
+    <link rel="stylesheet" href="personalisation.css">
+</head>
+<body>
+    <header>
+        <h1>Personnalisez votre mariage</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="personalisation.html">Personnalisation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="personalisation">
+        <h2>Créez le mariage de vos rêves</h2>
+        <form id="weddingForm">
+            <label for="date">Date du mariage :</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="guests">Nombre d'invités :</label>
+            <input type="number" id="guests" name="guests" required>
+
+            <label for="services">Sélectionnez vos services :</label>
+            <select id="services" name="services" multiple>
+                <option value="location">Location de salle</option>
+                <option value="traiteur">Traiteur</option>
+                <option value="decoration">Décoration</option>
+                <option value="photographie">Photographie</option>
+            </select>
+
+            <label for="budget">Budget approximatif :</label>
+            <input type="number" id="budget" name="budget" required>
+
+            <button type="submit">Obtenir un devis</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Nous sommes à votre écoute.</p>
+        <p>&copy; 2024 Agence de Mariage. Tous droits réservés.</p>
+       
+    </footer>
+
+    <script src="personnalisation.js"></script>
+</body>
+</html>

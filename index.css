@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #f1779a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Augmenter l'espace entre les liens */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; /* Ajout d'une transition pour un effet au survol */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Couleur dorée au survol */
+}
+
+#hero {
+    text-align: center;
+    padding: 250px 500px; /* Augmenter le padding pour un meilleur espace */
+    background-image: url("images/Capture d'écran 2024-09-23 213613.png");
+    background-size: cover; /* Changer pour cover pour une meilleure adaptation */
+    background-position: center; /* Centrer l'image de fond */
+    color: rgb(252, 173, 255);
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px; /* Ajouter un espace en bas du titre */
+}
+
+#testimonials {
+    padding: 40px;
+    background-color: #fcc3f4;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px; /* Espace en bas du titre */
+}
+
+#testimonials p {
+    font-size: 1.2em; /* Taille de texte pour la description */
+    margin-bottom: 30px;
+    color: #0b0b0b; /* Espace en bas de la description */
+}
+
+.testimonial {
+    margin: 20px 0; /* Espace entre les témoignages */
+    padding: 15px;
+    border-left: 5px solid #f1779a; /* Bordure colorée à gauche */
+    background-color: #f9f9f9; /* Fond léger */
+}
+
+blockquote {
+    font-style: italic; /* Italique pour les témoignages */
+    color: #555; /* Couleur du texte des témoignages */
+}
+
+cite {
+    display: block; /* Afficher le nom en bloc */
+    margin-top: 10px; /* Espace au-dessus du nom */
+    font-weight: bold; /* Mettre en gras le nom */
+    color: #22e155; /* Couleur du nom */
+}
+
+
+blockquote {
+    font-style: italic; /* Italique pour les témoignages */
+    margin: 20px 0; /* Espacement autour des témoignages */
+    color: #555; /* Couleur du texte des témoignages */
+}
+
+footer {
+    background-color: #f1779a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+
+.btn {
+    background-color: #f1779a; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 15px 30px; /* Espacement intérieur */
+    font-size: 1.2em; /* Taille de police */
+    cursor: pointer; /* Curseur pointer au survol */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, transform 0.3s; /* Transition pour l'effet au survol */
+}
+
+.btn:hover {
+    background-color: #d06b8c; /* Couleur de fond au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+}
+
+.btn:focus {
+    outline: none; /* Enlever le contour par défaut */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Ombre autour du bouton au focus */
+}
